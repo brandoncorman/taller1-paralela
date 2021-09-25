@@ -1,16 +1,17 @@
 # Taller 1 - Computación paralela y distribuida
 
 ## Requisitos
+El programa está desarrollado y probado en Lubuntu 20.4
 
-* Tener instalado compiladores y bibliotecas GCC/g ++, se podrá instalar ingresando el siguiente comando en el terminal:
+* Tener instalado compiladores y bibliotecas GCC/g ++, se podrá instalar ingresando lo siguiente:
 ```
 sudo apt-get install build-essential
 ```
-* Tener instalado OpenCV, se podrá instalar ingresando el siguiente comando en el terminal:
+* Tener instalado OpenCV, se podrá instalar ingresando lo siguiente:
 ```
 sudo apt-get install libopencv-dev
 ```
-* Tener instalado cmake, se podrá instalar ingresando el siguiente comando en el terminal:
+* Tener instalado cmake, se podrá instalar ingresando lo siguiente:
 ```
 sudo apt install cmake
 ```
