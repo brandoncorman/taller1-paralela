@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( programa )
+find_package( OpenCV REQUIRED )
+add_executable( programa main.cpp )
+set_target_properties(programa PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/dist")
+target_link_libraries( programa ${OpenCV_LIBS} )
